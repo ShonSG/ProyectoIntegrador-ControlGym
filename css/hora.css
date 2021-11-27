@@ -1,0 +1,56 @@
+.cont-reloj{
+    margin: 12px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 40%;
+    border: 6px solid #fff;
+    background: #e5e5e5;
+    /* box-shadow:  -13px -13px 13px #fff, 
+     15px 15px 15px rgba(13,39,80,.26),
+    inset -13px -13px 13px #fff, 
+    inset 15px 15px 15px rgba(13,39,80,.26); */
+     border-radius:30px;
+     font-weight: bold;
+     font-family: monaco,Consolas,Lucida Console,monospace; 
+     color: #1D1F1E;
+}
+.reloj{
+    font-size:2.7em;  
+}
+.datos{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 1200px) {
+.cont-reloj{
+width:50%;
+}
+}
+
+@media only screen and (max-width: 960px) {
+.cont-reloj{
+width:60%;
+}
+}
+@media only screen and (max-width: 870px) {
+.cont-reloj{
+width:65%;
+}
+}
+@media only screen and (max-width: 400px) {
+.cont-reloj{
+width:85%;
+height:150px
+}
+.reloj{
+    font-size:2.8em;  
+}
+.datos{
+font-size:1.3em
+}
+}
+
